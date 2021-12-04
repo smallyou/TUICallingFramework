@@ -1,0 +1,53 @@
+PODS:
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - TUICalling (9.3.0):
+    - Masonry
+    - TUICalling/TRTC (= 9.3.0)
+    - TUICore
+  - TUICalling/TRTC (9.3.0):
+    - Masonry
+    - TUICore
+    - TXLiteAVSDK_TRTC
+  - TUICallingFramework (0.1.0):
+    - TUICalling
+  - TUICore (5.8.1672):
+    - ReactiveObjC
+    - SDWebImage
+    - TXIMSDK_Plus_iOS (= 5.8.1672)
+  - TXIMSDK_Plus_iOS (5.8.1672)
+  - TXLiteAVSDK_TRTC (9.3.10765)
+
+DEPENDENCIES:
+  - TUICallingFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - ReactiveObjC
+    - SDWebImage
+    - TUICalling
+    - TUICore
+    - TXIMSDK_Plus_iOS
+    - TXLiteAVSDK_TRTC
+
+EXTERNAL SOURCES:
+  TUICallingFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  TUICalling: 082df002a6d5fd28392a62ba8506d21437f60f3f
+  TUICallingFramework: c11e613a0d16bbb2a5897185fd8e9b5925ab7e83
+  TUICore: 43df8f1b74ffc18478b34081708ace7b9a36cb9c
+  TXIMSDK_Plus_iOS: b5661ed7ad6b984509d85494ba444fa599d4d380
+  TXLiteAVSDK_TRTC: a383e8a7a5bee76d99e10802ceb94908b0de8e33
+
+PODFILE CHECKSUM: f847e8886d0bfb65157527fb7307b9383f184ebf
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module Pods_TUICallingFramework_Example {
+  umbrella header "Pods-TUICallingFramework_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

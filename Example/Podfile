@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TUICallingFramework_Example' do
+  pod 'TUICallingFramework', :path => '../'
+
+  target 'TUICallingFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

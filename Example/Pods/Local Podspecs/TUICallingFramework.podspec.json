@@ -1,0 +1,27 @@
+{
+  "name": "TUICallingFramework",
+  "version": "0.1.0",
+  "summary": "A short description of TUICallingFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/harvychen/TUICallingFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "harvychen": "harvychen@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/harvychen/TUICallingFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TUICallingFramework/Classes/**/*",
+  "dependencies": {
+    "TUICalling": [
+
+    ]
+  }
+}

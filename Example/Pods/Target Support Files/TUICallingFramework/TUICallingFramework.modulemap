@@ -1,0 +1,6 @@
+framework module TUICallingFramework {
+  umbrella header "TUICallingFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
